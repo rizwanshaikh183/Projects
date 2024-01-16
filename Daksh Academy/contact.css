@@ -1,0 +1,142 @@
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 90px;
+}
+.back{
+    height: 100vh;
+    background-color: brown;
+}
+.regtxt>.txtcenter>label {
+
+    padding: 10px;
+    background-color: #f18930;
+    border-radius: 5px;
+    color: white;
+
+    font-weight: 700;
+    box-shadow: 8px 5px 1px 1px #343434;
+    border: 5px solid #f18930;
+
+
+
+}
+
+
+   .checkbox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   margin-top: 5px;
+    gap: 10px;
+
+   }
+
+.regtxt{
+    text-align: center;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+height: 10vh;
+padding: 30px;
+
+
+
+}
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+
+    height: 60vh;
+    width: 30vw;
+    line-height: 5vh;
+    background: #343434;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 0px 0px 4px 3px #f18930;
+
+}
+
+input {
+    display: flex;
+    border-radius: 5px;
+    height: 20px;  
+    padding: 2px;
+
+
+}
+
+.form-check-input {
+    display: inline-flex;
+
+
+
+}
+
+.btn {
+    padding: 8px 10px;
+    font-size: medium;
+    border-radius: 15px;
+    margin: 10px;
+    color: white;
+    background: #f18930;
+    padding:10px;
+   border: 2px solid rgb(208, 0, 0);
+    border: none;
+}
+.btn:hover{
+    box-shadow: 1px 1px 5px 4px #f18930; background: #343434;
+}
+
+@media (max-width:600px){
+    form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 25px;
+        height: 55vh;
+    }
+    .back{
+        height: 93vh;
+    }
+    .regtxt {
+        text-align: center;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+        height: 10vh;
+        padding: 40px;
+    }
+    
+    .main {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-flow: column;
+    
+        height: 55vh;
+        width: 90vw;
+        line-height: 5vh;
+        background: #343434;
+        color: white;
+        border-radius: 20px;
+        padding: 10px;
+        box-shadow: 0px 0px 4px 3px #f18930;
+    
+    }
+    
+    input {
+        display: flex;
+        border-radius: 5px;
+        height: 20px;
+      
+    
+    
+    }
+}

@@ -1,0 +1,13 @@
+.main-sem {
+    display: flex;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: 0px 1px 2px 2px #8d613a;
+    justify-content: center;
+    height: 115vh;
+    flex-flow: column;
+    max-width: 51vw;
+    margin: auto;
+    margin-top: 5rem;
+    margin-bottom: 5rem;}
+    
